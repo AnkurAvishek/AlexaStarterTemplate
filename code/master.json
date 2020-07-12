@@ -1,0 +1,321 @@
+{
+    "en-in":{
+        "WELCOME":{
+            "LABEL": "Welcome",
+            "SPEECH":["Hello world! %USER% ","welcome %USER%"],
+            "REPROMPT":["welcome %USER%"],
+            "REPEAT":["welcome %USER%"],
+            "SESSION_END": false,
+            "CARD":{
+                "TITLE" : "welcome",
+			    "CONTENT" : "Welcome %USER% to the skill.",
+			    "SMALL_IMAGE_URL" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+			    "LARGE_IMAGE_URL" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+            },
+            "DISPLAY":{
+                "TYPE" : "BodyTemplate2",
+                "PAYLOAD":{
+                    "BACKGROUND_IMAGE" : "https://avia-bucket.s3-ap-southeast-1.amazonaws.com/test.jpg",
+                    "TITLE" : "welcome",
+                    "FOREGROUND_IMAGE" : "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                    "PRIMARY_TEXT" : "Welcome %USER% to the skill.",
+                    "SECONDARY_TEXT" : "to alexa",
+                    "TERTIARY_TEXT" : "skill",
+                    "ITEM_LIST":[
+                        {
+                            "IMAGE": "https://avia-bucket.s3-ap-southeast-1.amazonaws.com/test.jpg",
+                            "TEXT": "Sample1"
+                        },
+                        {
+                            "IMAGE": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                            "TEXT": "Sample1"
+                        }
+                    ]
+                }                
+            },
+            "APL":{
+                "DOCUMENT" : "apl/document_template1.json",
+                "PAYLOAD" : {
+                    "bodyTemplate7Data": {
+                        "type": "object",
+                        "objectId": "bt7Sample",
+                        "title": "Today's Daily Photo of Cheese",
+                        "backgroundImage": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png",
+                        "hintText": "Try, \"Alexa, search for blue cheese\""
+                    }
+                }
+            },
+            "hint":[""],
+            "description":"This is welcome response"
+        },
+        "HELP":{
+            "LABEL": "help",
+            "SPEECH":["help for the skill"],
+            "REPROMT":[""],
+            "REPEAT":[],
+            "SESSION_END": false,
+            "CARD":{
+                "TITLE" : "",
+			    "CONTENT" : "",
+			    "SMALL_IMAGE_URL" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+			    "LARGE_IMAGE_URL" : "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png"
+            },
+            "DISPLAY":{
+                "TYPE" : "BodyTemplateX",
+                "PAYLOAD":{
+                    "BACKGROUND_IMAGE" : "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                    "TITLE" : "welcome",
+                    "FOREGROUND_IMAGE" : "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                    "PRIMARY_TEXT" : "Welcome %USER% to the skill.",
+                    "SECONDARY_TEXT" : "to alexa",
+                    "TERTIARY_TEXT" : "skill"
+                }
+            },
+            "APL":{
+                "DOCUMENT" : "apl/document_template1.json",
+                "PAYLOAD" : {
+                    "bodyTemplate7Data": {
+                        "type": "object",
+                        "objectId": "bt7Sample",
+                        "title": "Today's Daily Photo of Cheese",
+                        "backgroundImage": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png",
+                        "hintText": "Try, \"Alexa, search for blue cheese\""
+                    }
+                }
+            },
+            "hint":[""],
+            "description":"Help message"
+        },
+        "FALLBACK":{
+            "LABEL": "fallback",
+            "SPEECH":["could understand, could you please repeat?"],
+            "REPROMT":["hmm"],
+            "REPEAT":[],
+            "SESSION_END": false,
+            "CARD":{
+                "TITLE" : "fallback",
+			    "CONTENT" : "fallback",
+			    "SMALL_IMAGE_URL" : "",
+			    "LARGE_IMAGE_URL" : ""
+            },
+            "DISPLAY":{
+                "TYPE" : "BodyTemplateX",
+                "PAYLOAD":{
+                    "BACKGROUND_IMAGE" : "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                    "TITLE" : "welcome",
+                    "FOREGROUND_IMAGE" : "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                    "PRIMARY_TEXT" : "Welcome %USER% to the skill.",
+                    "SECONDARY_TEXT" : "to alexa",
+                    "TERTIARY_TEXT" : "skill"
+                }
+            },
+            "APL":{
+                "DOCUMENT" : "apl/document_template1.json",
+                "PAYLOAD" : {
+                    "bodyTemplate7Data": {
+                        "type": "object",
+                        "objectId": "bt7Sample",
+                        "title": "Today's Daily Photo of Cheese",
+                        "backgroundImage": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png",
+                        "hintText": "Try, \"Alexa, search for blue cheese\""
+                    }
+                }
+            },
+            "hint":[""],
+            "description":"Fallback message when Alexa doesn't understand whatn was said."
+        },
+        "SESSION_END":{
+            "LABEL": "session end",
+            "SPEECH":["Thank you"],
+            "REPROMT":[""],
+            "REPEAT":[],
+            "SESSION_END": true,
+            "CARD":{
+                "TITLE" : "Thank you",
+			    "CONTENT" : "Thank you",
+			    "SMALL_IMAGE_URL" : "",
+			    "LARGE_IMAGE_URL" : ""
+            },
+            "DISPLAY":{
+                "TYPE" : "BodyTemplateX",
+                "PAYLOAD":{
+                    "BACKGROUND_IMAGE" : "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                    "TITLE" : "welcome",
+                    "FOREGROUND_IMAGE" : "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                    "PRIMARY_TEXT" : "Welcome %USER% to the skill.",
+                    "SECONDARY_TEXT" : "to alexa",
+                    "TERTIARY_TEXT" : "skill"
+                }
+            },
+            "APL":{
+                "DOCUMENT" : "apl/document_template1.json",
+                "PAYLOAD" : {
+                    "bodyTemplate7Data": {
+                        "type": "object",
+                        "objectId": "bt7Sample",
+                        "title": "Today's Daily Photo of Cheese",
+                        "backgroundImage": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT7_Background.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/MollyforBT7.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png",
+                        "hintText": "Try, \"Alexa, search for blue cheese\""
+                    }
+                }
+            },
+            "hint":[""],
+            "description":"Fallback message when Alexa doesn't understand whatn was said."
+        }
+    },
+    "en-us":{   
+    }
+    
+}

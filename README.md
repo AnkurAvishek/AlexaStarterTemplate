@@ -1,1 +1,1 @@
-# CovidAlexaSkill# AlexaStarterTemplate
+# AlexaStarterTemplate
